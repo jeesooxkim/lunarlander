@@ -1,0 +1,39 @@
+The following program is a replication of the game LUNAR LANDER.
+
+
+
+[BEFORE YOU BEGIN]
+This program makes use of the pygame module and also a downloaded font called Sebastian Gothic NBT.
+Make sure that the pygame module is installed on your computer, and install the font file 
+included in the zip (SG_0.ttf). 
+
+
+
+[STARTING UP THE PROGRAM]
+Run the LunarLander.py file. An input prompt should appear on the console, asking for the 
+name of a planet (or moon). Type a planet (or moon) name--it is case insensitive--and press enter.
+This will bring up a graphics window with the game, with the gravity of the selected planet loaded.
+
+Click anywhere on the start screen to begin the game. 
+
+
+
+[CONTROLS]
+-Tap or hold down the left and right arrow keys to rotate the spaceship in either direction.
+Note that the spaceship will not rotate beyond 180 degrees (like in the game).
+
+-Tap or hold down the up arrow key to apply thrust. (There is no thrust indication graphically,
+but you will notice the ship slowing down/speeding up in the respective direction)
+
+
+
+[HOW TO WIN]
+-The goal of this game is to safely land on the surface of the planet. This is achieved by landing
+at a horizontal AND vertical speed of less than 10, and landing exactly at a 90 degree angle on
+the surface. 
+-Every time you make a safe landing, you earn 100 points, and the game will replay after a short 
+congratulatory message. Your score will continue to compile until you run out of fuel or make a 
+crash landing. 
+-The objective is to land safely as many times as possible with the limited amount of fuel, thus 
+gaining the most points. 
+
